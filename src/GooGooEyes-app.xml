@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<application xmlns="http://ns.adobe.com/air/application/28.0">
+    <id>com.blackhammer.googooeyes</id>
+    <filename>Goo Goo Eyes</filename>
+    <description></description>
+    <!-- To localize the description, use the following format for the description element.
+	<description>
+		<text xml:lang="en">English App description goes here</text>
+		<text xml:lang="fr">French App description goes here</text>
+		<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+	-->
+    <name>Goo Goo Eyes</name>
+    <!-- To localize the name, use the following format for the name element.
+	<name>
+		<text xml:lang="en">English App name goes here</text>
+		<text xml:lang="fr">French App name goes here</text>
+		<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+	-->
+    <copyright></copyright>
+    <initialWindow>
+        <content>GooGooEyes.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <autoOrients>false</autoOrients>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>direct</renderMode>
+    </initialWindow>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <icon>
+        <image48x48>AppIconsForPublish/icon_48.png</image48x48>
+        <image72x72>AppIconsForPublish/icon_72.png</image72x72>
+        <image36x36>AppIconsForPublish/icon_36.png</image36x36>
+        <image29x29>AppIconsForPublish/icon_29.png</image29x29>
+        <image57x57>AppIconsForPublish/icon_57.png</image57x57>
+        <image114x114>AppIconsForPublish/icon_114.png</image114x114>
+        <image512x512>AppIconsForPublish/icon_512.png</image512x512>
+        <image50x50>AppIconsForPublish/icon_50.png</image50x50>
+        <image58x58>AppIconsForPublish/icon_58.png</image58x58>
+        <image100x100>AppIconsForPublish/icon_100.png</image100x100>
+        <image144x144>AppIconsForPublish/icon_144.png</image144x144>
+        <image1024x1024>AppIconsForPublish/icon_1024.png</image1024x1024>
+        <image40x40>AppIconsForPublish/icon_40.png</image40x40>
+        <image76x76>AppIconsForPublish/icon_76.png</image76x76>
+        <image80x80>AppIconsForPublish/icon_80.png</image80x80>
+        <image120x120>AppIconsForPublish/icon_120.png</image120x120>
+        <image152x152>AppIconsForPublish/icon_152.png</image152x152>
+        <image180x180>AppIconsForPublish/icon_180.png</image180x180>
+        <image60x60>AppIconsForPublish/icon_60.png</image60x60>
+        <image75x75>AppIconsForPublish/icon_75.png</image75x75>
+        <image87x87>AppIconsForPublish/icon_87.png</image87x87>
+        <image167x167>AppIconsForPublish/icon_167.png</image167x167>
+    </icon>
+    <iPhone>
+        <InfoAdditions><![CDATA[<key>UIDeviceFamily</key><array><string>1</string></array>]]></InfoAdditions>
+        <requestedDisplayResolution>standard</requestedDisplayResolution>
+    </iPhone>
+    <versionNumber>1.10.01</versionNumber>
+    <supportedLanguages>en</supportedLanguages>
+    <android>
+        <manifestAdditions><![CDATA[<manifest></manifest>]]></manifestAdditions>
+    </android>
+    <versionLabel></versionLabel>
+</application>
